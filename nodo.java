@@ -1,4 +1,4 @@
-package reproductor_de_musica;
+package estructuras.de.datos;
 
 public class nodo {
     

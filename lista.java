@@ -1,4 +1,4 @@
-package reproductor_de_musica;
+package estructuras.de.datos;
 
 public class lista {
 
@@ -48,7 +48,11 @@ public class lista {
         return -1;
     }
     
-    public nodo get_cancion(int index){
+    public boolean contains(nodo b){
+        return (index(b) != -1);
+    }
+    
+    public nodo get_nodo(int index){
         if (index < 0 || index >= tam) {
             return null;
         }
