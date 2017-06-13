@@ -1,4 +1,4 @@
-package nestle;
+package arboles_binarios;
 
 public class arbol {
 
@@ -11,6 +11,7 @@ public class arbol {
     }
 
     public void insertar(int n) {
+        can++;
         nodo_arbol nuevo = new nodo_arbol(n);
 
         if (raiz == null) {
