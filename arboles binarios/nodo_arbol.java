@@ -1,4 +1,4 @@
-package nestle;
+package arboles_binarios;
 
 public class nodo_arbol {
     
@@ -11,6 +11,6 @@ public class nodo_arbol {
     }
     
     public void mostrar(){
-        System.out.println("dato= " + dato);
+        System.out.println("dato = " + dato);
     }
 }
